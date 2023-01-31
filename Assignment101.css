@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 1px;
+    box-sizing: border-box;
+}
+header {
+    /* border: 1px solid white; */
+    border-left-width: 0px;
+    padding-top: 10px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(221, 113, 11);
+}
+
+main {
+    /* border: 1px solid white; */
+    display: flex;
+    height: calc(100vh - 42px - 42px);
+    text-align: center;
+    
+}
+.Nav {
+    /* border: 3px solid white; */
+    margin: 4px 4px 4px 0px;
+    width: 200px;
+    padding-top: 200px;
+    background-color: rgb(23, 219, 167);
+}
+.Holy {
+    /* border: 3px solid white; */
+    margin: 4px 4px 4px 4px;
+    width: calc(100vw - 206px - 206px);
+    padding-top: 200px;
+    background-color: rgb(238, 118, 224);
+}
+.Side {
+    /* border: 3px solid white; */
+    margin: 4px 0px 4px 4px;
+    width: 200px;
+    padding-top: 200px;
+    background-color: rgb(211, 227, 65);
+}
+footer {
+    border: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+    height: 40px;
+    background-color: rgb(237, 122, 154);
+}
+p {
+    font-weight: bold;
+}
